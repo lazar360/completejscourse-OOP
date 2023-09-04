@@ -17,3 +17,5 @@ Person.prototype.calcAge = function(){
 
 jonas.calcAge();
 matilda.calcAge();
+Person.prototype.species = "homo sapiens";
+console.log(jonas.species, matilda.species);
